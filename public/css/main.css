@@ -11,7 +11,8 @@ body {
 #landing-header {
   width: 100%;
   max-width: 1300;
-  background-image: url(file:///Users/kurtle/TIY/surfnpaddle/img/header.jpg);
+  background-image: url(/img/header.jpg);
+  /*background-image: url(file:///Users/kurtle/TIY/surfnpaddle/public/img/header.jpg);*/
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -185,20 +186,20 @@ blockquote {
   font-size: 21px;
 }
 
-.sidebar-ad {
+#sidebar-ad-img {
   padding: 0;
   margin: 0;
   margin-top: 3em;
-  margin-bottom: 3em;
 }
 
-.sidebar-ad a {
+#sidebar-ad-text a {
   text-decoration: none;
   color: grey;
   font-size: 12px;
 }
 
 .sidebar-text h4 {
+  margin-top: 3em;
   color: #00cca3;
 }
 

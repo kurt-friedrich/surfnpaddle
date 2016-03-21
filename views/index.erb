@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Bootstrap 101 Template</title>
+    <title>MVMNT</title>
     <link rel="stylesheet"
     href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="/css/main.css">
   </head>
 
   <body>
@@ -34,7 +34,7 @@
     <section id="page-body">
       <div class="body-content">
         <div class="body-col-left">
-          <h2>I LIKE THEIR EARLY STUFF BETTER</h2>
+          <h2><%= @headlines %></h2>
           <p>Typewriter kickstarter vegan, DIY farm-to-table small batch shabby chic. Lumbersexual vinyl lo-fi hoodie. Brunch 90's freegan, artisan migas schlitz chicharrones hella polaroid sustainable kombucha paleo umami fingerstache try-hard. Pinterest cold-pressed post-ironic ramps normcore, wolf selvage jean shorts fap man bun gentrify pork belly art party semiotics.</p>
           <p>Messenger bag crucifix before they sold out, chicharrones typewriter cronut schlitz artisan street art polaroid. Dreamcatcher swag chicharrones, cronut iPhone art party knausgaard.</p>
           <blockquote cite="http://">
@@ -56,9 +56,9 @@
               <li><a href="#" >Instagram</a></li>
             </ul>
           </div>
-          <div class="sidebar-ad">
-            <img class="img-responsive" src="img/sidebar-ad.jpg" alt="" />
-            <p class="text-right">
+          <div>
+            <img class="img-responsive" id="sidebar-ad-img" src="/img/sidebar-ad.jpg" alt="" />
+            <p class="text-right" id="sidebar-ad-text">
               <a href="#">About This Ad</a>
             </p>
           </div>
@@ -75,19 +75,19 @@
       </div>
       <div class="footer-content">
         <div class="flex1">
-          <img class="img-responsive" src="img/footer1.jpg" alt="" />
+          <img class="img-responsive" src="/img/footer1.jpg" alt="" />
           <p class="footer-story">SYNTH SHOWDOWN</p>
         </div>
         <div class="flex1">
-          <img class="img-responsive" src="img/footer2.jpg" alt="" />
+          <img class="img-responsive" src="/img/footer2.jpg" alt="" />
           <p class="footer-story">HOW DO I MIC A __________?</p>
         </div>
         <div class="flex1">
-          <img class="img-responsive" src="img/footer3.jpg" alt="" />
+          <img class="img-responsive" src="/img/footer3.jpg" alt="" />
           <p class="footer-story">THE PROBLEM(S) WITH VINYL</p>
         </div>
         <div class="flex1">
-          <img class="img-responsive" src="img/footer4.jpg" alt="" />
+          <img class="img-responsive" src="/img/footer4.jpg" alt="" />
           <p class="footer-story">STOP DOING THIS</p>
         </div>
       </div>
