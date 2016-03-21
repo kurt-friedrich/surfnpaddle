@@ -11,7 +11,7 @@ body {
 #landing-header {
   width: 100%;
   max-width: 1300;
-  background-image: url(file:///Users/kurtle/TIY/surfnpaddle/img/header.jpg);
+  background-image: url(../img/header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
