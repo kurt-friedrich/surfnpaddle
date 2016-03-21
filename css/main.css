@@ -12,6 +12,8 @@ body {
   width: 100%;
   max-width: 1300;
   background-image: url(file:///Users/kurtle/TIY/surfnpaddle/img/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #landing-header-col {
@@ -20,26 +22,89 @@ body {
   margin: 0 auto;
   max-width: 902;
   height: 525px;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
-#landing-header-col .img-responsive {
+/*#landing-header-col .img-responsive {
   display: block;
   width: 100%;
   flex: 1;
-}
+}*/
 
 #landing-header-col .landing-header-content {
   width: 100%;
   padding: 0px;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   align-self: center;
   text-align: center;
+}
+
+.header-nav {
+  width: 75%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#header-top-left {
+  display: inline-block;
+  color: #cacecd;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  padding-top: 1%;
+}
+
+#header-top-left p {
+  margin: 0;
+  padding: 0;
+}
+
+/*#header-top-left img {
+  height: 44px;
+  fill: white;
+  color: white;
+  margin: 0;
+  padding: 0;
+}*/
+
+#header-top-right {
+  display: inline-block;
+  float: right;
+  margin: 0;
+  padding: 0;
+  padding-top: 1%;
+  font-size: 16px;
+}
+
+#header-top-right ul {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+#header-top-right ul li {
+  display: inline-block;
+  padding: 0;
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+#header-top-right li a {
+  color: #cacecd;
+  text-decoration: none;
 }
 
 .landing-header-content h1 {
   font-size: 82px;
   color: #66ffe0;
+  margin: 0;
+}
+
+.landing-header-content p {
+  color: #cacecd;
 }
 
 .body-content {
@@ -54,7 +119,6 @@ body {
   padding: 0;
   padding-top: 6%;
   padding-bottom: 6%
-  border: 1px solid red;
 }
 
 .body-col-left h2 {
@@ -72,7 +136,7 @@ body {
   padding-bottom: 6%;
   margin: 0;
   margin-left: 6%;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 .user-info {
@@ -171,6 +235,9 @@ blockquote {
   position: relative;
 }
 
+#page-footer {
+}
+
 .footer-story {
   position: absolute;
   margin: 0;
@@ -180,4 +247,53 @@ blockquote {
   font-size: 22px;
   color: #66ffe0;
   font-weight: bold;
+}
+
+.footer-footer {
+  width: 100%;
+  background-color: #181b1a;
+}
+
+.footer-nav {
+  position: relative;
+  bottom: 0;
+  width: 75%;
+  padding: 0;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  line-height: 1em;
+  margin: 0 auto;
+  max-width: 902px;
+  font-size: 12px;
+}
+
+.footer-footer p {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-footer ul{
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  color: #cacecd;
+}
+
+.footer-footer li {
+  display: inline-block;
+  padding: 0;
+}
+
+.footer-footer li a {
+  color: #cacecd;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.copyright {
+  color: #cacecd;
 }
