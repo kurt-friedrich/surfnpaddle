@@ -2,13 +2,73 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
+  font-family: 'Oxygen', sans-serif;
+  color: #cacecd;
 }
 
-body {
-  color: #4a4a4a;
+#page-header {
+  background-image: url(../img/header.jpg);
+  background-attachment: fixed;
+  text-align: center;
+  height: 40vw;
 }
 
-#landing-header {
+.navbar-default {
+  background: none;
+  background-image: url(../img/header.jpg);
+  background-attachment: fixed;
+}
+
+.navbar {
+  border: 0px;
+}
+
+#surf-svg {
+  height: 40px;
+  display: inline;
+  margin: 0;
+  margin-right: 1em;
+}
+
+.navbar-default .navbar-brand {
+  color: #66ffe0;
+  padding-top: 7px;
+}
+
+.container-fluid .navbar-header {
+  padding: 0px;
+}
+
+.navbar-default .container-fluid ul {
+  padding: 0;
+}
+
+.navbar-default .container-fluid ul li {
+  float: right;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #66ffe0;
+}
+
+#page-header h1 {
+  /*display: flex;*/
+  vertical-align: center;
+  font-size: 82px;
+  color: #66ffe0;
+}
+
+#rotate {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+  transform: rotate(90deg);
+  color: #66ffe0;
+}
+
+/*#landing-header {
   width: 100%;
   max-width: 1300;
   background-image: url(../img/header.jpg);
@@ -22,19 +82,11 @@ body {
   margin: 0 auto;
   max-width: 902;
   height: 525px;
-  /*border: 1px solid red;*/
 }
-
-/*#landing-header-col .img-responsive {
-  display: block;
-  width: 100%;
-  flex: 1;
-}*/
 
 #landing-header-col .landing-header-content {
   width: 100%;
   padding: 0px;
-  /*border: 1px solid red;*/
   align-self: center;
   text-align: center;
 }
@@ -58,14 +110,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
-/*#header-top-left img {
-  height: 44px;
-  fill: white;
-  color: white;
-  margin: 0;
-  padding: 0;
-}*/
 
 #header-top-right {
   display: inline-block;
@@ -136,7 +180,6 @@ body {
   padding-bottom: 6%;
   margin: 0;
   margin-left: 6%;
-  /*border: 1px solid red;*/
 }
 
 .user-info {
@@ -296,4 +339,4 @@ blockquote {
 
 .copyright {
   color: #cacecd;
-}
+}*/
