@@ -33,12 +33,12 @@
     </div>
     <div class="container" id="page-body">
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-8" id="column-left">
           <div class="row">
             <div class="col-md-12 column-top">
               <h2>I LIKE THE EARLY STUFF BETTER</h2>
               <p id="post-author">
-                <a href="#"><img src="img/avatar.jpg" alt="user avatar" class="img-circle user-name"> Kurt Friedrich</a>
+                <a href="#"><img src="img/avatar.jpg" alt="user avatar" class="img-circle"> Kurt Friedrich</a>
                 on
                 <a href="#">Monday Oct. 7th 9:22pm</a>
               </p>
@@ -65,28 +65,35 @@
           <p>Portland tilde ugh cold-pressed neutra raw denim typewriter salvia, pickled letterpress shabby chic banjo. Mustache health goth pour-over master cleanse seitan. Marfa cardigan scenester, swag tattooed banjo cray kitsch. Sustainable mixtape bespoke tousled cliche yr neutra trust fund twee.
           </p>
         </div>
-        <div class="col-md-3 col-md-push-1">
+        <div class="col-md-3 col-md-push-1" id="column-right">
           <div class="row">
             <div class="col-md-12 column-top">
-              <img src="img/avatar.jpg" alt="user avatar" class="img-circle">
-              <p class="text-center user-name">KURT FRIEDRICH</p>
-              <ul>
+              <a href="#">
+                <img src="img/avatar.jpg" alt="user avatar" class="img-circle img-responsive" id="user-avatar">
+                <p class="text-center user-name">KURT FRIEDRICH</p>
+              </a>
+              <ul class="list-inline text-center">
                 <li><a href="#" >Twitter</a></li>
                 <li><a href="#" >Facebook</a></li>
                 <li><a href="#" >Instagram</a></li>
               </ul>
             </div>
           </div>
-          <div class="sidebar-ad">
-            <img class="img-responsive" src="img/sidebar-ad.jpg" alt="" />
-            <p class="text-right">
-              <a href="#">About This Ad</a>
-            </p>
+          <div class="row">
+            <div class="col-md-12">
+              <img class="img-responsive" id="sidebar-ad" src="img/sidebar-ad.jpg" alt="" />
+              <p class="text-right">
+                <a href="#">About This Ad</a>
+              </p>
+            </div>
           </div>
-          <div class="sidebar-text">
-            <h4>SIDEBAR HEADING</h4>
-            <p>Crucifix polaroid umami, roof party normcore truffaut gentrify. Wolf YOLO echo park bushwick you probably haven't heard of them. Sriracha cronut selvage hoodie, echo park meh messenger bag pug post-ironic polaroid helvetica.</p>
+          <div class="row" id="sidebar-bottom">
+            <div class="col-md-12">
+              <h4>SIDEBAR HEADING</h4>
+              <p id="sidebar-text">Crucifix polaroid umami, roof party normcore truffaut gentrify. Wolf YOLO echo park bushwick you probably haven't heard of them. Sriracha cronut selvage hoodie, echo park meh messenger bag pug post-ironic polaroid helvetica.</p>
+            </div>
           </div>
+
         </div>
       </div>
     </div>
