@@ -128,7 +128,7 @@ blockquote {
   font-size: 16px;
 }
 
-#page-header h1 {
+.row .col-md-12 h1 {
   /*display: flex;*/
   vertical-align: center;
   font-size: 82px;
@@ -203,6 +203,46 @@ blockquote {
 #sidebar-bottom {
   margin-top: 1em;
 }
+
+.page-bottom {
+  margin-top: 5%;
+  border-top: 1px solid #e6e6e6;
+}
+
+.page-bottom h2 {
+  padding-top: .5em;
+}
+
+.stories {
+  display: flex;
+  margin-top: 3%;
+}
+
+.flex1 {
+  flex: 1;
+  position: relative;
+}
+
+.footer-story {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  bottom: .1em;
+  left: .5em;
+  font-size: 22px;
+  color: #66ffe0;
+  font-weight: bold;
+  max-width: 90%;
+}
+
+.footer-bottom {
+  background-color: #181b1a;
+}
+
+.footer-bottom ul li {
+  border-right: 1px solid #66ffe0;
+}
+
 
 /*#landing-header {
   width: 100%;
