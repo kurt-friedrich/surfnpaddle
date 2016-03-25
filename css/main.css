@@ -207,6 +207,7 @@ blockquote {
 .page-bottom {
   margin-top: 5%;
   border-top: 1px solid #e6e6e6;
+  max-width: 1300px;
 }
 
 .page-bottom h2 {
@@ -237,10 +238,33 @@ blockquote {
 
 .footer-bottom {
   background-color: #181b1a;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+}
+
+.footer-bottom img {
+  height: 36px;
+  display: inline;
+}
+
+.footer-bottom div p {
+  display: inline;
+  color: #bfc4c8;
+  font-size: 12px;
+  margin: 0;
+}
+
+.footer-bottom ul {
+  float: right;
+  margin-top: .4em;
+  display: inline;
 }
 
 .footer-bottom ul li {
-  border-right: 1px solid #66ffe0;
+  display: inline;
+  border-right: 1px solid #bfc4c8;
 }
 
 
